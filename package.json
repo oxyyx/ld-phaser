@@ -1,0 +1,27 @@
+{
+  "name": "ld-phaser",
+  "version": "1.0.0",
+  "description": "LudumDare Phaser Experiment",
+  "main": "index.html",
+  "scripts": {
+    "dev": "webpack --mode development && webpack serve --mode development"
+  },
+  "keywords": [
+    "phaser",
+    "ld",
+    "ludum-dare"
+  ],
+  "author": "Oxy",
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "^3.52.0"
+  },
+  "devDependencies": {
+    "expose-loader": "^2.0.0",
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.2.3",
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
